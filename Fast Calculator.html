@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<html>
+     
+    <body>
+<form name='myForm'>
+Multiplicaton: <input type='number' ng-init='input1' onclick='checkValidity'>
+<input type='number' ng-init='input2' onclick='checkValidity'>
+<p>Result: {{input1 * input2}}</p>
+<br>
+Divide: <input type='number' ng-init='input3' onclick='checkValidity'>
+<input type='number'ng-init='input4' onclick='checkValidity'>
+<p>Result: {{input3 * input4}}</p>
+</form>
+
+
+        
+      <script>
+      var app=angular.module('myApp', function(checkValidity) {
+        var x;
+        var text = ' ';
+        if(isNaN(x)) {
+            text += 'Number is not valid';
+        }
+      });
+
+      </script>
+        
+        
+    </body>
+</html>

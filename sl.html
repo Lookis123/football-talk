@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+<p id='demo'></p>       
+<style>
+  /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #3277e5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 11px; 
+  border: none;
+  outline: none;
+  color: #3277e5;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#3277e5;
+  color:black;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #3277e5;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #3277e5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.topnav a:hover {
+  background-color: #3277e5;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #3277e5;
+  color: black;
+}
+h1{
+    color: #3277e5;
+    font-size: 30px;
+    position:relative;
+    left:10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 25px;
+    border: 2px solid #333;
+    padding: 6px; 
+    width: 200px;
+    height: 40px; 
+    text-align:center;
+}
+h3 {
+    left:15px;
+    position: relative;
+    font-style:italic;
+    font-size: 10px;
+    
+}
+li {
+    position:relative;
+    top:200px;
+}
+img {
+position: absolute;
+left: 93%;
+bottom: 85%;
+
+}
+h1 {
+    color: #3277e5;
+}
+p {
+  color:#3277e5;
+  position:absolute;
+  left:509px;
+  bottom:28px;
+
+}
+img:hover {
+  opacity: 0.7;
+}
+
+p {
+  color:#333;
+  
+
+}
+p.solid {
+    border-style:solid;
+}
+
+div.post {
+    text-align:center;
+    padding:140px;
+    
+}
+.text-block {
+  font-size:28px;
+  background-color:black;
+  padding-left:20px;
+  padding-right:20px;
+  width:26%;
+  color:white;
+  position:relative;
+  left:80%;
+  border-radius:8px;
+}
+
+
+</style>
+
+  
+
+    <body>
+<h1>Football.Talk</h1>
+<h3>Football Analysis</h3>
+<img src='ftlogo.jpg' height='90px' width='110px'>
+<div class='topnav'>
+        <a class='active' href='myfirst.html'>Aρχική Σελίδα</a><!--This is the homepage-->
+        <a href='cl.html'>Champions League</a><!--Champions League-->
+        <a href='el.html'>Europa League</a><!--This is the europa league page-->
+        
+        <div class='dropdown'>
+            <button class='dropbtn'>Top Leagues
+              <i class="fal fa-angle-double-down"></i>
+            </button>
+            <div class='dropdown-content'>
+              <a href='pl.html'>Premier League</a>
+              <a href='bl.html'>Bundesliga</a>
+              <a href='l1.html'>Ligue I</a>
+              <a href='sa.html'>Serie A</a>
+              <a href='ll.html'>La Liga</a>
+            </div>
+          </div>
+            <a href='sl.html'>Super League</a>
+            <a href='eo.html'>Εθνική Ομάδα</a>
+  </div> 
+
+<div style='padding:16px'>
+</div>
+<div style="padding:15px 15px 100px;font-size:10px">
+  </div> 
+
+
+
+
+ <div class='post'>
+  <a href='article.html' >
+    <picture>
+     <img src='varela.jpg' style='width:45%;left:340px;bottom:3%; 
+     height:auto;border:3px solid black;border-style:double;max-width:100%;border-radius:8px;'>
+     </picture>
+      <div class="bottom-left"></div>
+   </a>
+   <div class='text-block'>
+      <div class="centered"><b>H συγκίνηση<br> των παιδίων <br>του Varela.</b>
+  </div>
+ </div>
+ </div>
+
+
+
+ 
+ 
+   
+      
+    </div>
+ 
+
+
+<script>
+
+
+</script>
+
+
+    </body>
+</html>
