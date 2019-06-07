@@ -1,0 +1,16 @@
+
+<from method="GET" action="{% url 'blog:search' %}">
+        <input name="q" value="" placeholder="search..">
+        <button class="btn btn-success" type="submit">
+            search
+        </button>
+</from>
+
+
+    <h1><a href="{% url 'blog:blog_detail' slug=obj.slug %}"> 
+    <p></obj.title></p>
+    <p><a href="{% url 'blog:category_detail' slug=obj.category.slug %}"
+
+{% endfor %}
+{% include 'pagitation.html' %}
+{% endblock %}
